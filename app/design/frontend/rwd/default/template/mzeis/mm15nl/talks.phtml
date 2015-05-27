@@ -1,0 +1,11 @@
+<?php
+/**
+ * @var $this Mzeis_Mm15nl_Block_Talks
+ */
+?>
+<h1><?php echo $this->escapeHtml($this->getTitle()); ?></h1>
+<?php if ($this->getProduct()->getId()): ?>
+    <?php $_name = $this->helper('catalog/output')->productAttribute($this->getProduct(), $this->getProduct()->getName(), 'name'); ?>
+    <p><?php echo $this->__('Purchase our talk product %s!', $_name); ?></p>
+<?php endif; ?>
+

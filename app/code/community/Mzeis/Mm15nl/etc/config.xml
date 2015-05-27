@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Mzeis_Mm15nl>
+            <version>1.0.0</version>
+        </Mzeis_Mm15nl>
+    </modules>
+    <default>
+        <mzeis_mm15nl>
+            <talks>
+                <title>MM15NL talks</title>
+            </talks>
+        </mzeis_mm15nl>
+    </default>
+    <frontend>
+        <layout>
+            <updates>
+                <mzeis_mm15nl>
+                    <file>mzeis_mm15nl.xml</file>
+                </mzeis_mm15nl>
+            </updates>
+        </layout>
+        <routers>
+            <mzeis_mm15nl>
+                <use>standard</use>
+                <args>
+                    <frontName>mm15nl</frontName>
+                    <module>Mzeis_Mm15nl</module>
+                </args>
+            </mzeis_mm15nl>
+        </routers>
+    </frontend>
+    <global>
+        <blocks>
+            <mzeis_mm15nl>
+                <class>Mzeis_Mm15nl_Block</class>
+            </mzeis_mm15nl>
+        </blocks>
+        <helpers>
+            <mzeis_mm15nl>
+                <class>Mzeis_Mm15nl_Helper</class>
+            </mzeis_mm15nl>
+        </helpers>
+    </global>
+</config>

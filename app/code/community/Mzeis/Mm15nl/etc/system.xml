@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <mzeis_mm15nl translate="label" module="mzeis_mm15nl">
+            <label>MM15NL</label>
+            <sort_order>10</sort_order>
+        </mzeis_mm15nl>
+    </tabs>
+    <sections>
+        <mzeis_mm15nl translate="label" module="mzeis_mm15nl">
+            <class>separator-top</class>
+            <label>MM15NL</label>
+            <tab>mzeis_mm15nl</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>10</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <talks translate="label">
+                    <label>Talks</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>10</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <title translate="label">
+                            <label>Title</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </title>
+                        <sku translate="label">
+                            <label>Talk Product SKU</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </sku>
+                    </fields>
+                </talks>
+            </groups>
+        </mzeis_mm15nl>
+    </sections>
+</config>

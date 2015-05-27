@@ -1,0 +1,4 @@
+app/code/community/Mzeis/Mm15nl/ app/code/community/Mzeis/Mm15nl/
+app/design/frontend/rwd/default/layout/mzeis_mm15nl.xml app/design/frontend/rwd/default/layout/mzeis_mm15nl.xml
+app/design/frontend/rwd/default/template/mzeis/mm15nl/ app/design/frontend/rwd/default/template/mzeis/mm15nl/
+app/etc/modules/Mzeis_Mm15nl.xml app/etc/modules/Mzeis_Mm15nl.xml

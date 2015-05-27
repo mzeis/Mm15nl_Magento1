@@ -1,0 +1,17 @@
+{
+  "name": "mzeis/mm15nl",
+  "license": "MIT",
+  "type": "magento-module",
+  "description": "Meet Magento 15 NL example extension",
+  "require": {
+    "php": ">=5.2",
+    "magento-hackathon/magento-composer-installer": "*"
+  },
+  "authors": [
+    {
+      "name": "Matthias Zeis",
+      "homepage": "http://www.matthias-zeis.com"
+    }
+  ]
+}
+

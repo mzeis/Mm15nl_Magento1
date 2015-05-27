@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <mzeis_mm15nl_index_index>
+
+        <reference name="content">
+            <block type="core/text_list" name="mzeis.mm15nl.container" />
+
+            <block type="mzeis_mm15nl/talks" name="mzeis.mm15nl.talks" template="mzeis/mm15nl/talks.phtml" />
+        </reference>
+
+        <reference name="root">
+            <action method="setTemplate">
+                <template>page/2columns-left.phtml</template>
+            </action>
+        </reference>
+    </mzeis_mm15nl_index_index>
+</layout>
